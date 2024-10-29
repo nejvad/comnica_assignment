@@ -7,7 +7,6 @@ const Logo = () => {
     height: "75pt",
     width: "105pt",
     top: "-15pt",
-    zIndex: "1",
   }
 
   return (
