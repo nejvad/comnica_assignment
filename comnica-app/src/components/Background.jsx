@@ -5,9 +5,8 @@ const Background = () => {
     const backgroundPosition = {
         position: "absolute",
         zIndex: "-1",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repear",
-        backgroundPosition: "center center"
+        height: "100vh",
+        width: "100vw"
     }
 
   return (
