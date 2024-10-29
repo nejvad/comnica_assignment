@@ -25,7 +25,8 @@ const Sidebar = () => {
         fontSize: "15pt",
         fontWeight: "bold",
         textAlign: "justify",
-        paddingBottom: "20pt"
+        paddingBottom: "20pt",
+        color: "#31363c"
     }
 
   return (

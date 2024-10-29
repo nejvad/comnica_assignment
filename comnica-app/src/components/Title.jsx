@@ -23,6 +23,7 @@ const Title = () => {
         fontSize: "15pt",
         fontWeight: "bold",
         textAlign: "justify",
+        color: "#31363c"
     }
 
   return (
