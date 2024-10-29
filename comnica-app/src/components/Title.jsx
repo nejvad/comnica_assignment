@@ -2,14 +2,17 @@ import React from 'react'
 
 const Title = () => {
     const panelAttributes = {
-        display: "flex",
+        position: "relative",
+        left: "35%",
+        width: "30%",
         justifyContent: "center",
         alignItems: "center",
+        textAlign: "center",
         border: "5pt solid #186553",
         borderRadius: "5pt",
         padding: "35pt",
         backgroundColor: "rgba(206, 250, 208, 0.5)",
-        margin: "150pt 700pt 0pt 700pt",
+        marginTop: "30pt",
     }
 
     const titleTheme = {
@@ -22,7 +25,7 @@ const Title = () => {
     const textTheme = {
         fontSize: "15pt",
         fontWeight: "bold",
-        textAlign: "justify",
+        textAlign: "center",
         color: "#31363c"
     }
 
