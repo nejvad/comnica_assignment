@@ -4,9 +4,8 @@ import logo from "../img/logo.png"
 const Logo = () => {
 
   const transform = {
-    height: "75pt",
+    height: "100pt",
     width: "105pt",
-    top: "-15pt",
   }
 
   return (

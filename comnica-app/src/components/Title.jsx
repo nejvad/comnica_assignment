@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Title = () => {
+    
     const panelAttributes = {
         position: "relative",
         left: "35%",
