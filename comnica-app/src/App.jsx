@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 import Logo from './components/Logo';
-import Panel from './components/Panel'
+import Panel from './components/Panel';
+import Title from './components/Title'
 
 const App = () => {
   return (
     <>
-      <Logo/> 
+      <Logo/>
+      <Title/>
       <Panel/>
     </>
   )

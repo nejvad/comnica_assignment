@@ -10,13 +10,13 @@ const Sidebar = () => {
         borderRadius: "5pt",
         padding: "35pt",
         backgroundColor: "rgba(206, 250, 208, 0.5)",
-        margin: "150pt 700pt 0pt 700pt",
+        margin: "30pt 700pt 0pt 700pt",
     }
     
     const titleAttributes = {
         textAlign: "center",
         color: "#682c5d",
-        fontSize: "25pt",
+        fontSize: "20pt",
         fontWeight: "bold",
         paddingBottom: "10pt"
     }
