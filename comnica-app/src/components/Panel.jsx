@@ -7,9 +7,9 @@ const Sidebar = () => {
         alignItems: "center",
         border: "5pt solid #186553",
         borderRadius: "5pt",
-        padding: "25pt",
-        backgroundColor: "#cefad0",
-        width: "55%"
+        padding: "35pt",
+        backgroundColor: "rgba(206, 250, 208, 0.5)",
+        margin: "150pt 700pt 0pt 700pt" 
     }
     
     const titleAttributes = {
@@ -17,18 +17,18 @@ const Sidebar = () => {
         color: "#682c5d",
         fontSize: "25pt",
         fontWeight: "bold",
-
+        paddingBottom: "10pt"
     }
 
     const textAttributes = {
         fontSize: "15pt",
         fontWeight: "bold",
-        textAlign: "justify"
+        textAlign: "justify",
     }
 
   return (
-    <div  style={panelAttributes}>
-        <div >
+    <div style={panelAttributes}>
+        <div>
             <p style={titleAttributes}>
                 Üdvözlöm a 
                 Comnica Signature-ben!
