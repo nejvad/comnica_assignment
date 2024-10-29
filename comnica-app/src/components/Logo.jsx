@@ -1,10 +1,9 @@
 import React from 'react'
-import logo from "../files/logo.png"
+import logo from "../img/logo.png"
 
 const Logo = () => {
 
   const transform = {
-    position: "absolute",
     height: "75pt",
     width: "105pt",
     top: "-15pt",
