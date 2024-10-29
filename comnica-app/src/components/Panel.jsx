@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from "./Button"
 
 const Sidebar = () => {
     const panelAttributes = {
@@ -9,7 +10,7 @@ const Sidebar = () => {
         borderRadius: "5pt",
         padding: "35pt",
         backgroundColor: "rgba(206, 250, 208, 0.5)",
-        margin: "150pt 700pt 0pt 700pt" 
+        margin: "150pt 700pt 0pt 700pt",
     }
     
     const titleAttributes = {
@@ -24,6 +25,7 @@ const Sidebar = () => {
         fontSize: "15pt",
         fontWeight: "bold",
         textAlign: "justify",
+        paddingBottom: "20pt"
     }
 
   return (
@@ -36,6 +38,7 @@ const Sidebar = () => {
             <p style={textAttributes}>A következőkben végigvezetjük dokumentumai elfogadásában és aláírásán.
                 A folyamat több percet is igénybe vehet, ezért kérjük, csak akkor kezdje el, ha készen áll rá.
             </p>
+            < Button/>
         </div>
     </div>
   )
