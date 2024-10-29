@@ -33,4 +33,4 @@
 
 ## 4. A designer a következőképpen álmodja meg a beviteli mező működését:
 
-### <form> tagen belül a text típusú input mezőben nem tud szerepelni a value attribútum és a felhasználó által beírt érték
+### form tagen belül a text típusú input mezőben nem tud szerepelni a value attribútum és a felhasználó által beírt érték
